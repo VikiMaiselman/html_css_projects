@@ -14,7 +14,6 @@ body {
     height: 100%;
     background-color: #323C4D;
     color: white;
-   
 }
 
 #right-column {
@@ -27,7 +26,6 @@ body {
 
 .main {
     width: 100%;
-    /* height: 30%; */
     height: 15em;
     position: static;
     margin: auto;
@@ -105,3 +103,13 @@ p {
     margin: 0.5% auto 0.5% auto;
   }
   
+@media (max-width: 500px) {
+  #left-column {
+    min-width: fit-content;
+    min-height: 1000px;
+  }
+
+  #right-column {
+    min-width: fit-content;
+  }
+}
